@@ -23,3 +23,12 @@ function sq(x){
     return ans;
 }
 console.log("the answer is:"+sq(2));
+
+function greet(name, age) {
+    console.log("hello,"+name+ "!");
+    age();
+}
+function gdb(){
+    console.log("Goodbye!")
+}
+greet("riddhi",gdb);
